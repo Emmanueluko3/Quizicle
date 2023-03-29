@@ -1,0 +1,304 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.container {
+  margin: auto;
+  width: 95%;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav {
+  padding: 1.5% 0%;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  padding: 0px 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 22px;
+  color: #fff;
+}
+
+nav .nav-logo i {
+  display: none;
+}
+
+.active {
+  font-weight: 700;
+}
+
+nav .login-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 122px;
+  height: 52px;
+  background: #030c63;
+  color: #fff;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  /* transform: matrix(1, 0, 0, -1, 0, 0); */
+}
+
+nav .links a {
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.hero .right-section {
+  width: 57%;
+  position: absolute;
+  right: -1px;
+  top: -1px;
+  z-index: -5;
+}
+
+.hero .right-section img {
+  width: 100%;
+  height: 50vh;
+}
+
+.hero .left-section {
+  width: 40%;
+  padding-top: 30px;
+  margin: 0;
+}
+
+.hero button {
+  width: 40%;
+  height: 55px;
+  color: #fff;
+  font-size: 20px;
+  background: #030c63;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  background: #01073d;
+}
+
+.hero .left-section h1 {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.hero .left-section p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  color: #646468;
+  margin-bottom: 50px;
+}
+
+/* signup css */
+
+.sign-up {
+  justify-content: center;
+  display: flex;
+}
+.sign-up .left-section p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  color: #010214;
+}
+.sign-up .left-section h1 {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 28px;
+  color: #030c63;
+}
+
+.sign-up .left-section {
+  width: 40%;
+  padding: 58px;
+  padding-top: 30px;
+  margin: 0;
+}
+.sign-up .logo {
+  padding-bottom: 15px;
+}
+.sign-up .right-section {
+  width: 60%;
+}
+
+.sign-up .left-section,
+.sign-up .right-section {
+  height: 100vh;
+}
+.sign-up .right-section img {
+  width: 100%;
+  height: 50vh;
+}
+
+.sign-up .left-section label {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #010212;
+}
+
+.sign-up .left-section input {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 8px;
+  border: 1px solid #010214;
+  border-radius: 10px;
+}
+
+button {
+  width: 100%;
+  height: 55px;
+  color: #fff;
+  font-size: 20px;
+  background: #030c63;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #01073d;
+}
+
+.have-acc {
+  display: flex;
+  justify-content: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.have-acc a {
+  color: #030c63;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* Mobile screen */
+@media only screen and (max-width: 600px) {
+  .flex {
+    flex-direction: column;
+  }
+
+  nav .navs {
+    align-items: flex-start;
+  }
+
+  nav .navs .links ul {
+    padding: 0px;
+    align-items: flex-start;
+  }
+
+  nav .navs .links ul li {
+    margin: 4px 0px;
+  }
+
+  nav .navs .links a {
+    color: #010212;
+    font-size: 16px;
+  }
+  nav .nav-logo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+
+  nav .nav-logo img {
+    height: 32px;
+  }
+  nav .nav-logo i {
+    display: block;
+    font-size: 24px;
+    color: #030c63;
+  }
+
+  nav .login-parent {
+    display: none;
+    height: 25px;
+    font-size: 16px;
+    width: 50%;
+    margin-left: 10px;
+    color: #fff !important;
+  }
+
+  button {
+    height: 32px !important;
+    font-size: 16px !important;
+  }
+
+  .hero .right-section,
+  .hero .left-section {
+    width: 100%;
+  }
+
+  .hero .right-section {
+    display: none;
+    position: relative;
+    margin: 10% 0px;
+  }
+
+  .sign-up .right-section {
+    display: none;
+  }
+
+  .sign-up .left-section {
+    width: 100%;
+    padding: 30px;
+    margin: 0;
+  }
+
+  .sign-up .logo img {
+    width: 70px;
+    height: 20.19px;
+  }
+
+  .sign-up .left-section p {
+    font-size: 14px;
+  }
+  .sign-up .left-section h1 {
+    font-size: 22px;
+  }
+
+  .sign-up label {
+    font-size: 10px;
+  }
+
+  .sign-up input {
+    height: 31px;
+    width: 98% !important;
+  }
+
+  .sign-up button {
+    width: 100%;
+    height: 34px;
+    font-size: 14px;
+    margin-top: 126px;
+  }
+  .sign-up .have-acc {
+    font-size: 11px;
+  }
+  .sign-up .have-acc a {
+    font-size: 11px;
+  }
+}
