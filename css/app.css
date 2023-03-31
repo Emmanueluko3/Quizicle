@@ -1,0 +1,118 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
+/* .navbar a{
+    font-size: 20px;
+    padding: 10px;
+    color:  palevioletred;
+    top: 30px;
+    position: relative;
+    font-weight: 600;
+} */
+
+/* .navbar .icon{
+    display: none;
+} */
+/* @media screen and (max-width:600px) {
+    .navbar a {display: none;}
+    .navbar a.icon{
+        float: right;
+        display: block;
+    }
+
+} */
+/* @media screen and (max-width:600px) {
+    .navbar.responsive {position: relative;}
+    .navbar.responsive a.icon{
+        top: 0;
+        right: 0;
+        position: absolute;
+    }
+    .navbar.responsive a{
+        float: none;
+        text-align: left;
+        display: block;
+
+    }
+} */
+
+.appnav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.appnav ul li{
+    display: inline;
+    padding: 20px;
+    font-size: 20px;
+    
+
+}
+.appnav a{
+color: #030C63;
+}
+.login{
+    background: #030C63;
+    border-radius: 10px;
+    padding: 10px;
+ 
+}
+.login a{
+    color: #FFFFFF;
+
+}
+/* about */
+.about{
+    background: #F5F4F4;
+    height: 70vh;
+
+
+}
+.app-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    top: 120px;
+    position: relative;
+}
+.app{
+    width: 20%;
+    /* border: 1px solid; */
+    border-radius: 7px;
+    background: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+}
+
+.app-1{
+    bottom: 60px;
+    position: relative;
+}
+
+.app img{
+    width: 30%;
+}
+@media screen and (max-width:600px) {
+    /* .about{
+        background: pink;
+        height: 70vh;
+    
+    
+    } */
+    .app-container{
+        display: flex;
+        flex-direction: column;
+        /* text-align: center; */
+        justify-content: space-evenly;
+        top: 120px;
+        position: relative;
+    }
+    .app-1{
+        bottom: 0px;
+        position: relative;
+    }
+    .app{
+        width: 90%;
+    }
+}
