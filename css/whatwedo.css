@@ -1,0 +1,340 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+
+.whatwedo{
+    margin-top: 120px;
+}
+.whatwedo h2{
+    font-family: 'Roboto';
+    font-size: 48px;
+    width: 100%;
+   text-align: center;
+}
+/* .dos{
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.test, .achievement, .level, .tech,.answer{
+    width: 31.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 29.5%;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    padding: 0px 20px;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+
+.border-btw{
+    /* border: left; */
+    margin:60px 0px 0px;
+    border: 2px solid #010106;
+    height: 320px;
+    position: relative;
+ }
+
+/* .community{
+    
+    padding-bottom: 20px;
+    
+    color: #fff;
+} */
+.community{
+    background: radial-gradient(circle, #B106CC,#293EFA);
+    margin: auto;
+    margin-top: 7%;
+    margin-bottom: 4%;
+    text-align: center;
+    width: 92%;
+    height: 380px;
+    /* background: #293EFA; */
+    border-radius: 25px;
+}
+.community h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    /* line-height: 60px; */
+    color: #FFFFFF;
+    margin:0px 0px 0px 0px ;
+    /* margin-bottom: 0px; */
+    padding-top: 40px;
+    /* text-align: center; */
+}
+.community p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 125%;
+    margin: auto;
+    width:fit-content;
+    padding: 20px 17.797% 56px;
+    color: #FFFFFF;
+}
+
+.community button{
+    width: 264px;
+    height: 70px;
+    background: #FFF7F7;
+    border: none;
+    border-radius: 20px;
+    color: #000000;
+    justify-content: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 125%;
+}
+
+.com-btn:hover{
+    background-color: #293efa58;
+    color: white;
+}
+
+.dos h3{
+    /* border-bottom:0 ; */
+    font-family: 'Inter';
+    /* font-style: normal; */
+    line-height: 35px;
+    font-weight: 500;
+    font-size: 32px;
+    text-align: center;
+    margin: 25px 0px 0px 0px;
+}
+.dos p{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+    color: #646468;
+    margin: 16px 0px 0px 0px;
+}
+
+/* .border-right{
+    border-right: 1px solid black;
+    margin: 50px 0px
+} */
+
+
+.icon{
+    width: 149px;
+    height: 149px;
+}
+
+.footer{
+    display: flex;
+    /* width: 100%; */
+    background-color: #030C63;
+    color: #fff;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px;
+
+}
+.footer .foot-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    align-items: flex-start;
+}
+
+.footer h3{
+    /* margin-top: 0; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    margin-bottom:0%;
+}
+.footer p{
+    /* margin-top: 0; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight:300;
+    font-size: 28px;
+    line-height: 35px;
+    margin-top: 0%;
+    text-decoration: none;
+}
+
+
+.footer .foot-img{
+    width: 237.08px;
+    height: 54px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer button{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    /* text-align: center; */
+    padding: 8px;
+    /* gap: 8px; */
+
+    /* position: absolute; */
+    width: 198px;
+    height: 64px;
+    border: none;
+    /* white */
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+.footer button:hover{
+    background: #010106;
+    color: #FFF7F7;
+}
+.foot-btn{
+    /* width: 156px;
+    height: 35px; */
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 125%;
+    /* identical to box height, or 125% */
+
+    /* main colour */
+    color: #030C63;
+
+}
+
+/* button{
+    width: 30%;
+    height: 40px;
+    color: #030C63;
+    font-size: 20px;
+    background: #fff;
+    border-radius: 10px;
+    border: #fff;
+} */
+
+/* for mobile screen */
+@media only screen and (max-width: 1160px) {
+    body {
+      background-color: white
+    }
+
+    .cards{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+        flex-direction:column;
+    }
+
+    .card{
+        width: 95%;
+    }
+
+    .card img{
+        height: 80px;
+    }
+
+    .card h3{
+        font-size: 25px !important;
+    }
+
+    .card p{
+        font-size: 18px !important;
+        line-height: 28px !important;
+    }
+
+    .border-btw{
+        display: none;
+    }
+
+    .community{
+        height: 100%;
+        padding: 10% 0;
+    }
+
+    .community h3{
+        font-size: 28px;        
+    }
+
+    .community p{
+        font-size: 20px;
+        /* text-align: start;   */
+        padding: 3%;      
+    }
+    
+    .community button{
+        width: 40%;
+        height: 40px;
+        background: #FFF7F7;
+        border: none;
+        border-radius: 20px;
+        color: #000000;
+        justify-content: center;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    .footer{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        align-items: flex-start;
+    }
+    .foot-img{
+        margin-left: -30px;
+    }
+    .footer h3 , .footer p{
+        font-size: 16px;
+    }
+    .footer button{
+        width: 40%;
+        height: 40px;
+        font-size: 14px;
+        border-radius: 20px;
+        justify-content: center;
+        line-height: normal;
+    }
+
+    .footer .foot-col{
+        width: 100%;
+    }
+  
+}
+
+    
+
+
+
+
+
+    
