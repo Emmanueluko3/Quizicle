@@ -49,14 +49,23 @@ nav .login-parent {
   height: 52px;
   background: #030c63;
   color: #fff;
-  border: 2px solid #ffffff;
+  border: 2px solid #e0dada;
   border-radius: 10px;
   /* transform: matrix(1, 0, 0, -1, 0, 0); */
+}
+
+nav .login-parent:hover {
+  background: #fff;
+  color: #010212;
 }
 
 nav .links a {
   text-decoration: none;
   font-size: 22px;
+}
+
+.hero {
+  height: 200%;
 }
 
 .hero .right-section {
@@ -69,7 +78,7 @@ nav .links a {
 
 .hero .right-section img {
   width: 100%;
-  height: 50vh;
+  height: 45vh;
 }
 
 .hero .left-section {
