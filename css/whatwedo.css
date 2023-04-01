@@ -1,7 +1,6 @@
 * {
   padding: 0;
   margin: 0;
-  /* box-sizing: border-box; */
 }
 
 .whatwedo {
@@ -13,20 +12,7 @@
   width: 100%;
   text-align: center;
 }
-/* .dos{
-    padding: 1%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
 
-.test, .achievement, .level, .tech,.answer{
-    width: 31.5%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-} */
 .cards {
   display: flex;
   justify-content: center;
@@ -44,19 +30,12 @@
 }
 
 .border-btw {
-  /* border: left; */
   margin: 60px 0px 0px;
   border: 2px solid #010106;
   height: 320px;
   position: relative;
 }
 
-/* .community{
-    
-    padding-bottom: 20px;
-    
-    color: #fff;
-} */
 .community {
   background: radial-gradient(circle, #b106cc, #293efa);
   margin: auto;
@@ -65,7 +44,6 @@
   text-align: center;
   width: 92%;
   height: 380px;
-  /* background: #293EFA; */
   border-radius: 25px;
 }
 .community h3 {
@@ -73,12 +51,9 @@
   font-style: normal;
   font-weight: 600;
   font-size: 48px;
-  /* line-height: 60px; */
   color: #ffffff;
   margin: 0px 0px 0px 0px;
-  /* margin-bottom: 0px; */
   padding-top: 40px;
-  /* text-align: center; */
 }
 .community p {
   font-family: "Inter";
@@ -113,9 +88,7 @@
 }
 
 .dos h3 {
-  /* border-bottom:0 ; */
   font-family: "Inter";
-  /* font-style: normal; */
   line-height: 35px;
   font-weight: 500;
   font-size: 32px;
@@ -132,11 +105,6 @@
   margin: 16px 0px 0px 0px;
 }
 
-/* .border-right{
-    border-right: 1px solid black;
-    margin: 50px 0px
-} */
-
 .icon {
   width: 149px;
   height: 149px;
@@ -144,7 +112,6 @@
 
 .footer {
   display: flex;
-  /* width: 100%; */
   background-color: #030c63;
   color: #fff;
   align-items: center;
@@ -160,7 +127,6 @@
 }
 
 .footer h3 {
-  /* margin-top: 0; */
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
@@ -169,7 +135,6 @@
   margin-bottom: 0%;
 }
 .footer p {
-  /* margin-top: 0; */
   font-family: "Inter";
   font-style: normal;
   font-weight: 300;
@@ -191,17 +156,11 @@
 
 .footer button {
   display: flex;
-  /* flex-direction: row; */
   justify-content: center;
-  /* text-align: center; */
   padding: 8px;
-  /* gap: 8px; */
-
-  /* position: absolute; */
   width: 198px;
   height: 64px;
   border: none;
-  /* white */
   background: #ffffff;
   border-radius: 20px;
 }
@@ -210,29 +169,14 @@
   color: #fff7f7;
 }
 .foot-btn {
-  /* width: 156px;
-    height: 35px; */
   align-items: center;
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 28px;
   line-height: 125%;
-  /* identical to box height, or 125% */
-
-  /* main colour */
   color: #030c63;
 }
-
-/* button{
-    width: 30%;
-    height: 40px;
-    color: #030C63;
-    font-size: 20px;
-    background: #fff;
-    border-radius: 10px;
-    border: #fff;
-} */
 
 /* for mobile screen */
 @media only screen and (max-width: 1160px) {
@@ -282,7 +226,7 @@
 
   .community p {
     font-size: 20px;
-    /* text-align: start;   */
+
     padding: 3%;
   }
 
