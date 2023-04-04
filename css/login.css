@@ -1,0 +1,239 @@
+.container{
+    display: flex;
+    width: 100%;
+}
+
+.right-side{
+    width: 55%;
+}
+
+.left-side{
+    width: 45%;
+    margin: 30px;
+}
+
+.back{
+    height: 35px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #010214;
+    margin-top: 70px;
+}
+
+h1{
+    width: 398px;
+    height: 35px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #030C63;
+    margin-top: -10px;
+}
+
+.signup{
+    width: 77px;
+    height: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #030C63;
+    text-decoration: none;
+
+}
+
+.acct{
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #010214;
+    margin-top: 265px;
+    margin-left: 120px;
+}
+
+.sign{
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #030C63;
+}
+
+.user{
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.user-name{
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 490px;
+    height: 38px;
+    background: #FFFFFF;
+    border: 1px solid #010106;
+    padding: 10px;
+}
+
+.pass{
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.password{
+    resize: none;
+    border-radius: 10px;
+    width: 490px;
+    height: 38px;
+    background: #FFFFFF;
+    border: 1px solid #010106;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.submit{
+    position: absolute;
+    width: 490px;
+    height: 45px;
+    left: 30px;
+    top: 560px;
+    color: #fff;
+    border-radius: 10px;
+    border: 2px #030c63;
+    background: #030C63;
+    padding-left: 10px;
+    font-size: 24px;
+}
+
+.forget{
+    margin-left: 60%;
+    margin-top: -16%;  
+    color: #030c63;
+    font-family:"inter";
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+
+}
+
+.right-side img{
+    height: 320px;
+    width: 100%;
+}
+
+
+
+@media screen and (max-width: 600px) { 
+
+    /* *{
+        overflow-x: hidden;
+    } */
+    /* body{
+        display: block;
+        flex-direction: column;
+    } */
+
+    .container {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+      }
+
+    .right-side img{
+        display: none;
+    } 
+
+    .left-side { 
+        display: flex;
+        flex-direction: column;
+        height: 60%;
+        width: fit-content;
+        align-content: center;
+        /* overflow: hidden; */
+        
+    }
+
+    h1 { 
+       font-size: 25px; 
+       width: 398px;
+       height: 35px;
+       font-family: 'Inter';
+       font-style: normal;
+       font-weight: 700;
+       color: #030C63;
+       margin-top: -10px;
+    }
+
+    .user-name{
+        width: 300px;
+        height: 38px;
+        border-radius: 10px;
+        box-sizing: border-box; background: #FFFFFF;
+        border: 1px solid #010106;
+        padding: 10px;
+        margin-top: -2px; 
+    }
+
+    .password{
+        width: 300px;
+        height: 38px;
+        border-radius: 10px;
+        box-sizing: border-box; background: #FFFFFF;
+        border: 1px solid #010106;
+        padding: 10px;
+        margin-top: -2px;
+
+    }
+
+    .submit{
+        position: absolute;
+        width: 300px;
+        height: 45px;
+        left: 40px;
+        top: 480px;
+        color: #fff;
+        border-radius: 10px;
+        border: 2px #030c63;
+        background: #030C63;
+        padding-left: 10px;
+        font-size: 24px;
+    }
+    
+    .acct{
+        position: absolute;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        color: #010214;
+        margin-top: 200px;
+        margin-left: 40px;
+    }
+
+    .forget{
+        margin-left: 35%;
+        margin-top: -1%;  
+        color: #030c63;
+        font-family:"inter";
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+    
+    }
+    
+}
